@@ -1,35 +1,57 @@
-<div><h1>📝 Notes Clone</h1></div>
-<h4>Hello! 🎉
-This project is a modern note-taking app clone. With a user-friendly interface, you can quickly create, edit, and delete notes. Developed with TypeScript, it's secure and scalable.</h4>
-<h4>Star ⭐ the repo if you like what you see 😉 </h4>
- <div>
- <h2>📸 Project Demo</h2>
- <p>Watch the video to see how the project works! 👇</p>
-   
+# 🏨 Hotel Clone
 
-https://github.com/user-attachments/assets/ec01ee8b-f74a-43d5-8062-c07c31c3c048
+A modern hotel reservation application built with the latest web technologies.  
+Users can browse hotels, view details, fill out a booking form, and see results.  
+Fully responsive design for both desktop and mobile devices.
 
+---
 
-<h2>🛠️ Technologies and Libraries Used</h2>
- <ul>
-  <li>📘 TypeScript – A powerful programming language that reduces the risk of errors in modern web projects and increases productivity with IDE support.</li>
-   <li>⚛️ React – Component-based architecture and fast performance</li>
-   <li>🧭 React Router DOM – For page transitions</li>
-   <li>🌓 @emotion/react & styled -	Styling solution used with MUI components</li>
-   <li>🎨 @mui/material - Integrates Google’s Material Design UI components into the project</li>
-   <li>🗂️ Redux Toolkit -	A modern Redux solution for managing global state</li>
-   <li>💾 redux-persist -	Makes app data persistent in the browser (e.g., localStorage)</li>
-   <li>🔐 uuid - Generates unique IDs for each note</li>
-   <li>✍️ react-markdown - Allows writing notes in Markdown format and rendering them properly</li>
- </ul>  
- 
- <h2>🎨 Features</h2>
- <ul>
-   <li>✅ Creating new notes</li>
-   <li>✅ Editing and deleting notes</li>
-   <li>✅ Markdown-supported content</li>
-   <li>✅ Persistent data (with LocalStorage)</li>
-   <li>✅ Modern and mobile-friendly design</li>
-   <li>✅ Easy-to-use and simple interface</li>
- </ul> 
- 
+## 🎥 Live Demo
+
+https://github.com/user-attachments/assets/a5337349-96fe-413b-81c3-b57ac5a4e1a6
+
+---
+
+## 🛠 Technologies Used
+
+| Technology | Description |
+|------------|-------------|
+| **React 19** | Modern UI development |
+| **React Router DOM 7** | Page routing |
+| **TailwindCSS 4** | Fast and flexible styling |
+| **React Query (TanStack)** | API data fetching & state management |
+| **Axios** | HTTP requests |
+| **Formik & Yup** | Form handling & validation |
+| **React Icons** | Icon library |
+| **React Toastify** | Toast notifications |
+| **TypeScript** | Type safety |
+| **Vite** | Fast development environment |
+
+---
+
+## ✨ Features
+
+- 🔍 Search and filter hotels
+- 📄 Hotel detail page
+- 🛎 Booking form with validation (Formik + Yup)
+- 📡 Fetch data from API (React Query + Axios)
+- 🎨 Responsive and modern UI (TailwindCSS)
+- 🔔 Notification system (React Toastify)
+
+---
+
+## 🚀 Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/hotel-clone.git
+
+# 2. Navigate into the project folder
+cd hotel-clone
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+
